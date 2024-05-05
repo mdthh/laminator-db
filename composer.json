@@ -1,0 +1,15 @@
+{
+    "require": {
+        "symfony/console": "^7.0",
+        "laminas/laminas-code": "^4.13",
+        "laminas/laminas-config-aggregator": "^1.14",
+        "laminas/laminas-db": "^2.20",
+        "laminas/laminas-config": "^3.9",
+        "laminas/laminas-filter": "^2.35"
+    },
+    "autoload": {
+        "psr-4": {
+            "DbTableInstigator\\": "src/"
+        }
+    }
+}
